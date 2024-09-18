@@ -32,13 +32,13 @@ This project is a simple yet powerful Todo List application built using React. I
    npm start
    ```
 ## How to Use
--Add a task by typing in the input field and clicking the 'Add' button.
--Mark a task as completed by clicking on the checkbox next to the task.
--Delete tasks using the 'Delete' button.
--Your tasks are saved automatically and will persist even after refreshing the browser.
+- Add a task by typing in the input field and clicking the 'Add' button
+- Mark a task as completed by clicking on the checkbox next to the task
+- Delete tasks using the 'Delete' button
+- Your tasks are saved automatically and will persist even after refreshing the browser
 ## Future Enhancements
--Add categories or priorities to tasks.
--Implement drag-and-drop functionality to reorder tasks.
--Add animations for better user experience.
+- Add categories or priorities to tasks
+- Implement drag-and-drop functionality to reorder tasks
+- Add animations for better user experience
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.         
