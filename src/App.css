@@ -1,0 +1,133 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0; /* Light grey background for a clean look */
+  overflow: auto;
+}
+
+/* Container for Input and Buttons */
+.inputButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff; /* White background for the input section */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 20px; /* Space below the input section */
+}
+
+/* Title Style */
+.inputButton h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input Styles */
+.inputButton input {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd; /* Light border for inputs */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.inputButton button {
+  width: 320px;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50; /* Green background for buttons */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.inputButton button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Container for To-Do Items */
+.container-box {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  gap: 20px; /* Space between items */
+  width: 100%;
+  max-width: 1200px; /* Adjust max width if needed */
+  padding: 10px;
+}
+
+/* Individual To-Do Item */
+.container {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Shadow for items */
+  display: flex;
+  flex-direction: column;
+  width: 250px; /* Fixed width for each item */
+}
+
+.container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.container p {
+  font-size: 16px;
+  color: #666;
+}
+
+.container .checkspan {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container .checkspan input {
+  margin-right: 10px;
+}
+
+.delete {
+  background-color: #f44336; /* Red background for delete button */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .inputButton input, .inputButton button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
